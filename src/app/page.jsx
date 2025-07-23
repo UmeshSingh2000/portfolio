@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import Desktop from '@/Components/DesktopComponent';
+
+import About from '@/Components/About';
 import Welcome from '@/Components/Welcome';
 
 const Page = () => {
@@ -11,11 +13,11 @@ const Page = () => {
   const renderContent = () => {
     switch (selectedItem) {
       case 'index.js':
-        return <Welcome />;
+        return <About />;
       case 'App.jsx':
         return <div>📄 This is App.jsx content</div>;
       case 'config.json':
-        return <Welcome />;
+        return <About />;
       case 'Documents':
         return <div>📁 Documents section</div>;
       case 'Downloads':
@@ -23,7 +25,7 @@ const Page = () => {
       case 'projectFiles':
         return <div>📂 Project Folder Overview</div>;
       default:
-        return <h1 className="text-xl font-bold mb-4">Welcome</h1>;
+        return <h1 className="text-xl font-bold mb-4"><Welcome /></h1>;
     }
   };
 
