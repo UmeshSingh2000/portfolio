@@ -20,7 +20,7 @@ const Page = () => {
         return <ERPPortal />;
       case 'About':
         return <About />
-      case 'Downloads':
+      case 'Documents':
         return <Desktop />;
       case 'projectFiles':
         return <div className="p-4">

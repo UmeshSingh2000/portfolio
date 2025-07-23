@@ -64,7 +64,7 @@ const Sidebar = ({ selectedItem, onSelect }) => {
         </li>
 
         {/* Static folders */}
-        {['About', 'Downloads'].map((folder) => (
+        {['About', 'Documents'].map((folder) => (
           <li key={folder} className="mt-2">
             <div
               onClick={() => onSelect(folder)}
