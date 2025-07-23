@@ -25,7 +25,7 @@ const Welcome = () => {
         </ul>
 
         <p className="text-gray-400">
-          Tip: Click on <code className="bg-gray-800 px-1 rounded">index.js</code> or <code className="bg-gray-800 px-1 rounded">Downloads</code> from the sidebar to explore.
+          Tip: Click on <code className="bg-gray-800 px-1 rounded">Projects Files</code> or <code className="bg-gray-800 px-1 rounded">Downloads</code> from the sidebar to explore.
         </p>
 
       </div>

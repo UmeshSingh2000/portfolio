@@ -6,16 +6,18 @@ import Desktop from '@/Components/DesktopComponent';
 
 import About from '@/Components/About';
 import Welcome from '@/Components/Welcome';
+import PotatoTrails from '@/Components/PotatoTrails';
+import ERPPortal from '@/Components/ERPPortal';
 
 const Page = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const renderContent = () => {
     switch (selectedItem) {
-      case 'index.js':
-        return <About />;
-      case 'App.jsx':
-        return <div>📄 This is App.jsx content</div>;
+      case 'Potato Trails':
+        return <PotatoTrails />;
+      case 'ERP Portal':
+        return <ERPPortal />;
       case 'config.json':
         return <About />;
       case 'Documents':
@@ -23,7 +25,16 @@ const Page = () => {
       case 'Downloads':
         return <Desktop />;
       case 'projectFiles':
-        return <div>📂 Project Folder Overview</div>;
+        return <div className="p-4">
+          <div className="text-green-400 font-mono p-4 rounded-lg text-sm">
+            <p>📁 Project Files</p>
+            <ul className="pl-4">
+              <li>📁 Potato Trails</li>
+              <li>📁 ERP Portal</li>
+              <li>📁 QR Based Attendance</li>
+            </ul>
+          </div>
+        </div>
       default:
         return <h1 className="text-xl font-bold mb-4"><Welcome /></h1>;
     }
