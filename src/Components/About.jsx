@@ -2,23 +2,36 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="bg-black text-green-400 font-mono h-full w-full p-8">
-      <pre className="text-sm leading-relaxed">
-{`Welcome to Umesh's Terminal...
----------------------------------
+    <div className="w-full h-full text-white font-mono px-6 py-8">
+      <div className="max-w-3xl text-sm space-y-3 leading-relaxed">
 
-Name:     Umesh Singh Mehta
-Role:     Full Stack Web Developer
-Stack:    MongoDB | Express.js | React | Node.js
-GitHub:   https://github.com/YOUR_GITHUB
-LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
-Resume:   /resume.pdf
+        <h1 className="text-lg font-semibold">📄 About Me</h1>
 
-> Passionate about building scalable, clean, and efficient web apps.
-> Currently exploring advanced MERN patterns & contributing to open source.
+        <p>Hi, I'm <strong>Umesh Singh Mehta</strong>, a Full Stack Web Developer passionate about creating scalable and user-friendly web applications using the <strong>MERN stack</strong>.</p>
 
-_`}
-      </pre>
+        <p>
+          🎓 Completed <strong>MCA</strong> from <strong>Teerthanker Mahaveer University</strong>.
+        </p>
+
+        <p>
+          ⚙️ Tech Stack & Tools:
+        </p>
+        <ul className="list-disc list-inside text-gray-300 space-y-1">
+          <li>Frontend: React.js, Redux, Next.js</li>
+          <li>Backend: Node.js, Express.js, MongoDB, MySQL</li>
+          <li>Tools: GitHub, Postman, Vercel, Render, MongoDB Atlas</li>
+        </ul>
+
+        <p>
+          🧠 Key Concepts:
+        </p>
+        <ul className="list-disc list-inside text-gray-300 space-y-1">
+          <li>MVC Architecture, CRUD Operations, JWT Auth</li>
+          <li>Responsive Design, RESTful APIs</li>
+          <li>Deployment & Hosting (Render, Vercel)</li>
+        </ul>
+
+      </div>
     </div>
   );
 };

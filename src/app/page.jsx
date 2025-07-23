@@ -18,10 +18,8 @@ const Page = () => {
         return <PotatoTrails />;
       case 'ERP Portal':
         return <ERPPortal />;
-      case 'config.json':
-        return <About />;
-      case 'Documents':
-        return <div>📁 Documents section</div>;
+      case 'About':
+        return <About />
       case 'Downloads':
         return <Desktop />;
       case 'projectFiles':
