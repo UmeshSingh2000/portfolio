@@ -2,7 +2,7 @@ import React from 'react';
 
 const Welcome = () => {
   return (
-    <div className="w-full h-full text-white font-mono overflow-hidden px-6 py-8">
+    <div className="w-full h-full bg-black text-white font-mono overflow-hidden px-6 py-8">
       <div className="max-w-3xl text-sm space-y-3 leading-relaxed">
 
         <h1 className="text-lg font-semibold">👋 Welcome to My Portfolio</h1>

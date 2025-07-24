@@ -85,7 +85,7 @@ const Page = () => {
 
         {/* Main Content (shifts on sidebar open/close) */}
         <main
-          className={`flex-1 overflow-y-auto h-[calc(100vh-64px)] transition-all duration-300
+          className={`flex-1 bg-black overflow-y-auto h-[calc(100vh-64px)] transition-all duration-300
     ${isSidebarOpen ? 'ml-64' : 'ml-0'} `}
         >
           {renderContent()}
