@@ -20,7 +20,7 @@ const Contact = () => {
                         />
                     </div>
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="_next" value="https://www.umeshsingh.tech/thanks" />
+                    <input type="hidden" name="_next" value="https://www.umeshsingh.tech/Thanks" />
 
                     <div>
                         <label className="block mb-1">
