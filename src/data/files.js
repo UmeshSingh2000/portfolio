@@ -5,13 +5,13 @@ export const files = [
         name: 'Resume',
         icon: '/icons/pdf.png',
         type: 'file',
-        href: '/resume.pdf',
+        href: '/Resume.pdf',
     },
     {
         id: 2,
         name: 'Profile',
         icon: '/icons/photo.png',
         type: 'file',
-        href: '/profile.jpg',
+        href: '/Profile.jpg',
     }
 ];
