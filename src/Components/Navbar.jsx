@@ -3,7 +3,7 @@ import React from 'react';
 import { Github, Linkedin, Mail, Menu } from 'lucide-react';
 
 const Navbar = ({ toggleSidebar }) => (
-  <nav className="bg-gray-800 text-white px-4 py-3 shadow-md z-50">
+  <nav className="bg-gray-800 h-16 text-white px-4 py-3 shadow-md z-50">
     <div className="container mx-auto flex justify-between items-center">
       <div className="text-lg md:text-xl font-bold tracking-wide">
         Umesh Singh Mehta

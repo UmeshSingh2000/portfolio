@@ -26,12 +26,12 @@ const Sidebar = ({ selectedItem, onSelect, isSidebarOpen, closeSidebar }) => {
         />
       )}
       <aside
-  className={`fixed top-0 left-0 h-full w-64 bg-gray-900 text-white p-4 overflow-y-auto z-40
+        className={`fixed top-0 h-full left-0 w-64 bg-gray-900 text-white p-4 overflow-y-auto z-40
     transform duration-300 ease-in-out
     ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
     md:translate-x-0 md:static
   `}
->
+      >
         <div className="text-xl font-bold mb-6 border-b border-gray-600 pb-2">
           Explorer
         </div>
@@ -39,9 +39,8 @@ const Sidebar = ({ selectedItem, onSelect, isSidebarOpen, closeSidebar }) => {
           <li>
             <div
               onClick={() => toggleFolder('projectFiles')}
-              className={`flex items-center w-full text-left py-2 px-2 rounded cursor-pointer ${
-                isSelected('projectFiles') ? 'bg-gray-700' : 'bg-gray-800'
-              }`}
+              className={`flex items-center w-full text-left py-2 px-2 rounded cursor-pointer ${isSelected('projectFiles') ? 'bg-gray-700' : 'bg-gray-800'
+                }`}
             >
               {expandedFolders.projectFiles ? (
                 <ChevronDown size={16} />
@@ -69,9 +68,8 @@ const Sidebar = ({ selectedItem, onSelect, isSidebarOpen, closeSidebar }) => {
                   <li
                     key={file}
                     onClick={() => onSelect(file)}
-                    className={`py-1 px-2 flex items-center rounded cursor-pointer ${
-                      isSelected(file) ? 'bg-gray-700' : 'hover:bg-gray-800'
-                    }`}
+                    className={`py-1 px-2 flex items-center rounded cursor-pointer ${isSelected(file) ? 'bg-gray-700' : 'hover:bg-gray-800'
+                      }`}
                   >
                     <FileText size={16} className="mr-2" />
                     {file}
@@ -84,9 +82,8 @@ const Sidebar = ({ selectedItem, onSelect, isSidebarOpen, closeSidebar }) => {
             <li key={folder} className="mt-2">
               <div
                 onClick={() => onSelect(folder)}
-                className={`flex items-center px-2 py-2 rounded cursor-pointer ${
-                  isSelected(folder) ? 'bg-gray-700' : 'hover:bg-gray-800'
-                }`}
+                className={`flex items-center px-2 py-2 rounded cursor-pointer ${isSelected(folder) ? 'bg-gray-700' : 'hover:bg-gray-800'
+                  }`}
               >
                 <Folder size={16} className="mr-2" />
                 {folder}
