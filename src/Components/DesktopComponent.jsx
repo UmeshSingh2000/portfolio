@@ -14,13 +14,13 @@ const Desktop = () => {
   };
 
   return (
-    <div className="w-full p-4 grid grid-cols-10 gap-4 content-start">
+    <div className="w-full flex gap-4 content-start">
       {files.map((file) => (
         <DesktopIcon
           key={file.id}
           name={file.name}
           icon={file.icon}
-          onDoubleClick={() => handleOpen(file)}
+          onClick={() => handleOpen(file)}
         />
       ))}
     </div>
