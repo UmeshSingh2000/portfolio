@@ -43,6 +43,8 @@ const Page = () => {
               <li>📁 ERP Portal</li>
               <li>📁 QR Based Attendance</li>
               <li>📁 Rope</li>
+              <li>📁 Fire & Safety</li>
+              <li>📁 DzineTech</li>
             </ul>
           </div>
         </div>

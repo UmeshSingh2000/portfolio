@@ -7,4 +7,11 @@ export const files = [
         type: 'file',
         href: '/resume.pdf',
     },
+    {
+        id: 2,
+        name: 'Profile',
+        icon: '/icons/photo.png',
+        type: 'file',
+        href: '/profile.jpg',
+    }
 ];
