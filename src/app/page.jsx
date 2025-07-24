@@ -2,16 +2,16 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
-import Desktop from '@/Components/DesktopComponent';
-import About from '@/Components/About';
-import Welcome from '@/Components/Welcome';
-import PotatoTrails from '@/Components/PotatoTrails';
-import ERPPortal from '@/Components/ERPPortal';
-import QROrderingSystem from '@/Components/QROrderingSystem';
-import Rope from '@/Components/Rope';
-import FireSafetyWebsite from '@/Components/FireSafetyWebsite';
-import CoachingWebsite from '@/Components/CoachingWebsite';
-import Contact from '@/Components/Contact';
+import Desktop from '../Components/DesktopComponent';
+import About from '../Components/About';
+import Welcome from '../Components/Welcome';
+import PotatoTrails from '../Components/PotatoTrails';
+import ERPPortal from '../Components/ERPPortal';
+import QROrderingSystem from '../Components/QROrderingSystem';
+import Rope from '../Components/Rope';
+import FireSafetyWebsite from '../Components/FireSafetyWebsite';
+import CoachingWebsite from '../Components/CoachingWebsite';
+import Contact from '../Components/Contact';
 
 const Page = () => {
   const [selectedItem, setSelectedItem] = useState(null);
