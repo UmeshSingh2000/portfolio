@@ -47,7 +47,7 @@ const Sidebar = ({ selectedItem, onSelect }) => {
 
           {expandedFolders.projectFiles && (
             <ul className="ml-6 mt-1">
-              {['Potato Trails', 'ERP Portal', 'QR-Based Ordering System'].map((file) => (
+              {['Potato Trails', 'ERP Portal', 'QR-Based Ordering System', 'Rope', 'Fire & Safety','DzineTech'].map((file) => (
                 <li
                   key={file}
                   onClick={() => onSelect(file)}

@@ -8,6 +8,10 @@ import About from '@/Components/About';
 import Welcome from '@/Components/Welcome';
 import PotatoTrails from '@/Components/PotatoTrails';
 import ERPPortal from '@/Components/ERPPortal';
+import QROrderingSystem from '@/Components/QROrderingSystem';
+import Rope from '@/Components/Rope';
+import FireSafetyWebsite from '@/Components/FireSafetyWebsite';
+import CoachingWebsite from '@/Components/CoachingWebsite';
 
 const Page = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -18,6 +22,14 @@ const Page = () => {
         return <PotatoTrails />;
       case 'ERP Portal':
         return <ERPPortal />;
+      case 'QR-Based Ordering System':
+        return <QROrderingSystem />;
+      case 'Rope':
+        return <Rope />;
+      case 'Fire & Safety':
+        return <FireSafetyWebsite />;
+      case 'DzineTech':
+        return <CoachingWebsite />;
       case 'About':
         return <About />
       case 'Documents':
@@ -30,6 +42,7 @@ const Page = () => {
               <li>📁 Potato Trails</li>
               <li>📁 ERP Portal</li>
               <li>📁 QR Based Attendance</li>
+              <li>📁 Rope</li>
             </ul>
           </div>
         </div>
