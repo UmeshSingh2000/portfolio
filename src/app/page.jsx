@@ -12,6 +12,7 @@ import Rope from '../Components/Rope';
 import FireSafetyWebsite from '../Components/FireSafetyWebsite';
 import CoachingWebsite from '../Components/CoachingWebsite';
 import Contact from '../Components/Contact';
+import Experience from '../Components/Experience';
 
 const Page = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -44,6 +45,8 @@ const Page = () => {
         return <CoachingWebsite />;
       case 'About':
         return <About />;
+      case 'Experience':
+        return <Experience />;
       case 'Documents':
         return <Desktop />;
       case 'Contact.js':
