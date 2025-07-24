@@ -78,14 +78,14 @@ const Sidebar = ({ selectedItem, onSelect, isSidebarOpen, closeSidebar }) => {
               </ul>
             )}
           </li>
-          {['About', 'Documents'].map((folder) => (
+          {['About', 'Documents', 'Contact.js'].map((folder) => (
             <li key={folder} className="mt-2">
               <div
                 onClick={() => onSelect(folder)}
                 className={`flex items-center px-2 py-2 rounded cursor-pointer ${isSelected(folder) ? 'bg-gray-700' : 'hover:bg-gray-800'
                   }`}
               >
-                <Folder size={16} className="mr-2" />
+                {folder === 'Contact.js' ? <FileText size={16} className="mr-2" /> : <Folder size={16} className="mr-2" />}
                 {folder}
               </div>
             </li>

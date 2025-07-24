@@ -11,6 +11,7 @@ import QROrderingSystem from '@/Components/QROrderingSystem';
 import Rope from '@/Components/Rope';
 import FireSafetyWebsite from '@/Components/FireSafetyWebsite';
 import CoachingWebsite from '@/Components/CoachingWebsite';
+import Contact from '@/Components/Contact';
 
 const Page = () => {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -45,6 +46,8 @@ const Page = () => {
         return <About />;
       case 'Documents':
         return <Desktop />;
+      case 'Contact.js':
+        return <Contact />;
       case 'projectFiles':
         return (
           <div className="p-4">
