@@ -19,7 +19,7 @@ const About = () => {
         <ul className="list-disc list-inside text-gray-300 space-y-1">
           <li>Frontend: React.js, Redux, Next.js</li>
           <li>Backend: Node.js, Express.js, MongoDB, MySQL</li>
-          <li>Tools: GitHub, Postman, Vercel, Render, MongoDB Atlas</li>
+          <li>Tools: GitHub, Postman, Vercel, Render, MongoDB Atlas, Docker</li>
         </ul>
 
         <p>

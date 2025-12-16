@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="max-w-xl">
                 <h1 className="text-xl mb-4"> Contact Me</h1>
 
-                <form className="space-y-4" action="" method="POST">
+                <form className="space-y-4" action="https://formsubmit.co/umeshsinghmehta4@gmail.com" method="POST">
                     <div>
                         <label className="block mb-1">
                             $ Enter your name:

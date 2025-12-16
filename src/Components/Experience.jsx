@@ -3,6 +3,18 @@ import React from 'react';
 
 const experiences = [
   {
+    company: 'BharatTech',
+    role: 'Software Developer Intern',
+    duration: 'Aug 2025 – Dec 2025',
+    description: [
+      'Maintained and enhanced the company’s Lead Management System (LMS) portal, ensuring smooth functionality and an improved user experience for internal teams.',
+      'Developed a real-time chat system enabling seamless communication between students and mentors using WebSockets (Socket.io).',
+      'Built and secured REST APIs using Node.js and Express.js, integrating SQL databases for efficient and reliable data handling.',
+      'Optimized frontend components using Next.js, improving application performance, responsiveness, and load times.',
+      'Fixed bugs, improved UI workflows, and contributed to new feature development while collaborating with the development team to debug issues and deploy updates.',
+    ],
+  },
+  {
     company: 'Teerthanker Mahaveer University',
     role: 'Graduate Engineer Trainee',
     duration: 'Apr 2025 – July 2025',
@@ -12,25 +24,6 @@ const experiences = [
       'Built interactive dashboards and responsive UIs with React.js for admin, teacher, and student portals, improving usability and reducing manual processes by 40%.',
       'Collaborated with multiple departments and a cross-functional team of 5+ developers for requirement gathering, testing, and deployment.',
       'Assisted in database design and management using MongoDB and MySQL.',
-    ],
-  },
-  {
-    company: 'Next24Tech Technology',
-    role: 'Web Development Intern',
-    duration: 'Jun 2024 – Aug 2024',
-    description: [
-      'Worked on full-stack web development using the MERN stack.',
-      'Collaborated with team members to build user-facing features and REST APIs.',
-      'Optimized website performance and improved UI responsiveness.',
-    ],
-  },
-  {
-    company: 'Embrizon Technologies',
-    role: 'Web Development Trainee',
-    duration: 'Jan 2024 – Mar 2024',
-    description: [
-      'Gained hands-on experience in frontend and backend development.',
-      'Built small-scale web apps and learned version control with Git.',
     ],
   },
 ];
